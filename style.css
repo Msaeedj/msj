@@ -1,0 +1,33 @@
+
+ @font-face {
+  font-family: 'Sahel';
+    src: url('font/Sahel-Bold-FD-WOL.eot');
+    src: url('font/Sahel-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
+         url('font/Sahel-Bold-FD-WOL.woff2') format('woff2'),
+         url('font/Sahel-Bold-FD-WOL.woff') format('woff'),
+         url('font/Sahel-Bold-FD-WOL.ttf') format('truetype');
+ }        
+
+table{
+   border: 5px solid #212121;
+   width: 70%;
+   text-align: center;
+   margin: auto;
+   padding: 10px;
+   
+}
+th{
+    background-color: #FFF176;
+    padding: 5px;
+}
+tr:nth-child(even):hover {
+    background-color:#FF7043 ;
+    transition:2;
+}
+tr:nth-child(odd):hover {
+    background-color:#66BB6A ;
+    transition:2; 
+}
+td{
+    padding: 5px;
+}
